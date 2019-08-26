@@ -14,7 +14,7 @@
     </parent>
     <groupId>com.dixdesire</groupId>
     <artifactId>dw-pet-clinic</artifactId>
-    <version>0.0.1</version>
+    <version>0.0.2-SNAPSHOT</version>
     <name>dw-pet-clinic</name>
     <description>Spring Framework Pet Clinic - DW version</description>
 
@@ -47,7 +47,7 @@
 
     <scm>
         <developerConnection>scm:git:https://github.com/dixitdesire/dw-pet-clinic.git</developerConnection>
-        <tag>dw-pet-clinic-0.0.1 </tag>
+        <tag>HEAD </tag>
     </scm>
 
 
