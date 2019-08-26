@@ -1,4 +1,4 @@
 package com.dixdesire.dwpetclinic.model;
 
-public class Pet extends Person {
+public class Owner extends Person {
 }
