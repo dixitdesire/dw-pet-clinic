@@ -2,9 +2,11 @@ package com.dixdesire.dwpetclinic.services.maps;
 
 import com.dixdesire.dwpetclinic.model.Pet;
 import com.dixdesire.dwpetclinic.services.CrudService;
+import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
+@Service
 public class PetServiceMap extends AbstractMapService<Pet, Long> implements CrudService<Pet, Long> {
     @Override
     public Set<Pet> findAll() {
