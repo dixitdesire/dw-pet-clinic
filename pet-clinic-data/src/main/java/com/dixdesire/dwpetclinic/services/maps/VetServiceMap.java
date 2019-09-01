@@ -1,11 +1,11 @@
 package com.dixdesire.dwpetclinic.services.maps;
 
 import com.dixdesire.dwpetclinic.model.Vet;
-import com.dixdesire.dwpetclinic.services.CrudService;
+import com.dixdesire.dwpetclinic.services.VetService;
 
 import java.util.Set;
 
-public class VetServiceMap extends AbstractMapService<Vet, Long> implements CrudService<Vet, Long> {
+public class VetServiceMap extends AbstractMapService<Vet, Long> implements VetService {
     @Override
     public Set<Vet> findAll() {
         return super.findAll();
