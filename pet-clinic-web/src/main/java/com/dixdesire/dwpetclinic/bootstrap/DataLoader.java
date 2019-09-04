@@ -57,7 +57,7 @@ public class DataLoader implements CommandLineRunner {
 
         Owner dixit = new Owner();
         dixit.setFirstName("Dixit");
-        dixit.setSecondName("Wadhwani");
+        dixit.setLastName("Wadhwani");
         dixit.setAddress("C-407");
         dixit.setCity("Pune");
         dixit.setTelephone("9912933450");
@@ -74,7 +74,7 @@ public class DataLoader implements CommandLineRunner {
         Owner gunjan = new Owner();
         gunjan.setId(2L);
         gunjan.setFirstName("Gunjan");
-        gunjan.setSecondName("Wadhwani");
+        gunjan.setLastName("Wadhwani");
         gunjan.setAddress("C-407");
         gunjan.setCity("Pune");
         gunjan.setTelephone("9912933422");
@@ -93,7 +93,7 @@ public class DataLoader implements CommandLineRunner {
         Vet v1 = new Vet();
         v1.setId(1L);
         v1.setFirstName("Raam");
-        v1.setSecondName("Kumar");
+        v1.setLastName("Kumar");
         v1.getSpecialities().add(savedDentistry);
 
         vetService.save(v1);
@@ -101,7 +101,7 @@ public class DataLoader implements CommandLineRunner {
         Vet v2 = new Vet();
         v2.setId(2L);
         v2.setFirstName("Laxman");
-        v2.setSecondName("Kumar");
+        v2.setLastName("Kumar");
         v2.getSpecialities().add(savedRadiology);
 
         vetService.save(v2);
