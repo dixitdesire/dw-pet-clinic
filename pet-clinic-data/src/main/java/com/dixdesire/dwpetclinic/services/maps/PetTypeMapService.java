@@ -1,15 +1,15 @@
 package com.dixdesire.dwpetclinic.services.maps;
 
-import com.dixdesire.dwpetclinic.model.Speciality;
-import com.dixdesire.dwpetclinic.services.SpecialityService;
+import com.dixdesire.dwpetclinic.model.PetType;
+import com.dixdesire.dwpetclinic.services.PetTypeService;
 import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
 @Service
-public class SpecialityServiceMap extends AbstractMapService<Speciality, Long> implements SpecialityService {
+public class PetTypeMapService extends AbstractMapService<PetType, Long> implements PetTypeService {
     @Override
-    public Set<Speciality> findAll() {
+    public Set<PetType> findAll() {
         return super.findAll();
     }
 
@@ -19,17 +19,17 @@ public class SpecialityServiceMap extends AbstractMapService<Speciality, Long> i
     }
 
     @Override
-    public void delete(Speciality obj) {
+    public void delete(PetType obj) {
         super.delete(obj);
     }
 
     @Override
-    public Speciality save(Speciality obj) {
+    public PetType save(PetType obj) {
         return super.save(obj);
     }
 
     @Override
-    public Speciality findById(Long id) {
+    public PetType findById(Long id) {
         return super.findById(id);
     }
 }
