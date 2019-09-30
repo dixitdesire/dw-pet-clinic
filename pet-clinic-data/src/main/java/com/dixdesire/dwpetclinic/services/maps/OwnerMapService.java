@@ -2,11 +2,13 @@ package com.dixdesire.dwpetclinic.services.maps;
 
 import com.dixdesire.dwpetclinic.model.Owner;
 import com.dixdesire.dwpetclinic.services.OwnerService;
+import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
 @Service
+@Profile({"default", "map"})
 public class OwnerMapService extends AbstractMapService<Owner, Long> implements OwnerService {
     @Override
     public Set<Owner> findAll() {
